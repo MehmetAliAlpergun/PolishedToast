@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolishedToast", "PolishedToast\PolishedToast.csproj", "{796FAAEF-511E-4BA6-9C3B-FC5BAF7133DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolishedToast-App", "PolishtedToast-App\PolishedToast-App.csproj", "{A84DF8C7-0500-4B92-82AA-50CA6A918D40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolishedToast-App", "PolishedToast-App\PolishedToast-App.csproj", "{A84DF8C7-0500-4B92-82AA-50CA6A918D40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
