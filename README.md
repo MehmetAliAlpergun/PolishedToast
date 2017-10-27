@@ -4,6 +4,25 @@ PolishedToast
 Polished Android Toast for Xamarin
 
 
+Usage
+--------
+
+```c#
+
+PolishedToast.Info(this, "Info").Show(); // for blue background toast
+PolishedToast.Success(this, "Success").Show(); // for greeen background toast
+PolishedToast.Create(this, "Default").Show(); // for default toast
+PolishedToast.Error(this, "Error").Show(); // for red background toast
+PolishedToast.Warning(this, "Warning", ToastLength.Long, false).Show(); // for yellow background toast without icon and defined toast duration
+```
+
+Install
+--------
+Available on NuGet
+
+[Nuget][Nuget]
+
+
 License
 --------
 
@@ -18,3 +37,5 @@ License
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+[Nuget]: https://www.nuget.org/packages/PolishedToast/
