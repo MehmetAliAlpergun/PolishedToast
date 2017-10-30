@@ -9,11 +9,21 @@ Usage
 
 ```c#
 
-PolishedToast.Info(this, "Info").Show(); // for blue background toast
-PolishedToast.Success(this, "Success").Show(); // for greeen background toast
-PolishedToast.Create(this, "Default").Show(); // for default toast
-PolishedToast.Error(this, "Error").Show(); // for red background toast
-PolishedToast.Warning(this, "Warning", ToastLength.Long, false).Show(); // for yellow background toast without icon and defined toast duration
+// for blue background toast with info icon
+PolishedToast.Info(this, "Info").Show(); 
+
+// for greeen background toast with success icon
+PolishedToast.Success(this, "Success").Show(); 
+
+// for grey background toast without icon
+PolishedToast.Create(this, "Default").Show(); 
+
+// for red background toast with error icon
+PolishedToast.Error(this, "Error").Show(); 
+
+// for yellow background toast without icon and defined toast duration
+PolishedToast.Warning(this, "Warning", ToastLength.Long, false).Show(); 
+
 ```
 
 Install
