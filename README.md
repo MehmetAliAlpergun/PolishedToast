@@ -3,6 +3,15 @@ PolishedToast
 
 Polished Android Toast for Xamarin
 
+Screens
+--------
+
+![screen](https://github.com/MehmetAliAlpergun/PolishedToast/blob/master/Screens/success.png)
+![screen](https://github.com/MehmetAliAlpergun/PolishedToast/blob/master/Screens/error.png)
+![screen](https://github.com/MehmetAliAlpergun/PolishedToast/blob/master/Screens/info.png)
+![screen](https://github.com/MehmetAliAlpergun/PolishedToast/blob/master/Screens/warning.png)
+![screen](https://github.com/MehmetAliAlpergun/PolishedToast/blob/master/Screens/default.png)
+
 
 Usage
 --------
