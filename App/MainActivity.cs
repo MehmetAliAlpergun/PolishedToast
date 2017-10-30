@@ -3,9 +3,9 @@ using Android.Widget;
 using Android.OS;
 using PolishedToast_Xamarin;
 
-namespace PolishtedToast_App
+namespace App
 {
-    [Activity(Label = "PolishtedToast_App", MainLauncher = true)]
+    [Activity(Label = "App", MainLauncher = true)]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -18,12 +18,19 @@ namespace PolishtedToast_App
             Button ButtonInfo = FindViewById<Button>(Resource.Id.ButtonInfo);
             Button ButtonSuccess = FindViewById<Button>(Resource.Id.ButtonSuccess);
             Button ButtonWarning = FindViewById<Button>(Resource.Id.ButtonWarning);
+            Button ButtonAndroidDefault = FindViewById<Button>(Resource.Id.ButtonAndroidDefault);
 
             ButtonError.Click += ButtonError_Click;
             ButtonDefault.Click += ButtonDefault_Click;
             ButtonInfo.Click += ButtonInfo_Click;
             ButtonSuccess.Click += ButtonSuccess_Click;
             ButtonWarning.Click += ButtonWarning_Click;
+            ButtonAndroidDefault.Click += ButtonAndroidDefault_Click;
+        }
+
+        private void ButtonAndroidDefault_Click(object sender, System.EventArgs e)
+        {
+            Toast.MakeText(this, "Android Default", ToastLength.Short).Show();
         }
 
         private void ButtonWarning_Click(object sender, System.EventArgs e)
